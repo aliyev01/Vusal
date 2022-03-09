@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+@media screen and (min-width: 375px) and (max-width: 829px) {
+    .body{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    main {
+        position: relative;
+        font-family: 'Roboto';
+        width:100vw;
+        height: 100vh;
+        margin-left : 9.6vw;
+        margin-top : 14.933vw;
+        background: #FFFFFF; 
+        justify-content: center; 
+    } 
+    .title{
+    width: 45.35vw;
+    height: 12.5vw;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6.933vw;
+    line-height: 101.38%;
+    color: #000000;
+    }
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .info .info-text{
+        width: 82.25vw;
+        height: 46.5vw;
+        margin-bottom: 15.792vw;
+    }
+    .info .info-text p{  
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.2vw;
+        line-height: 150%;
+        color: #000000;
+    }
+    .img1{
+        width: 170,14.667vw;
+        height: 42.744vw;
+        margin-left: 17.333vw;
+    }
+
+    .middle{
+        display: flex;
+        flex-wrap: wrap;   
+    }
+
+    .desktop-image{
+        display: none;
+    }
+
+    .bottom-p p:nth-child(odd){
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.2vw;
+        line-height: 130%;
+        color: #000000;
+        width: 18.64vw;
+        height: 4.845vw;    
+        padding-right: 13.333vw;
+    }
+
+    .bottom-p p:nth-child(even){
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.667vw;
+        line-height: 130%;
+        height: 4.8vw;
+        left: 9.333vw;
+        color: #000000;
+        padding-right: 8.888vw;
+        padding-top: 0vw;
+        margin-top: 0vw;
+    }
+#section2{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.text-cen{
+    display: flex;
+    flex-direction:column;
+}
+.sec2title{
+    margin-top: 20.267vw; 
+    width: 82.88vw;
+    height: 43.34px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6.933vw;
+    line-height: 101.38%;  
+    margin-left: 9.6vw;
+}    
+.first-p{
+    width: 26.6vw;
+    height: 1.333vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2vw;
+    line-height: 130%;
+    color: #1E4681;  
+    margin-left: 9.435vw; 
+    margin-top: 4.443vw;  
+}
+.last-p{
+width: 44vw;
+height: 13.6vw;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 2.667vw;
+line-height: 130%;
+color: #000000;
+margin-left: 9.333vw;
+margin-top: 0.221vw;
+}
+
+.sec3title{
+width: 82.88vw;
+height: 11.557vw;
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: bold;
+font-size: 6.933vw;
+line-height: 101.38%;
+color: #000000;
+margin-left: 9.6vw;
+}
+.sec3list{
+width: 79.3vw;
+height: 46.4vw;
+left: 11.733vw;
+top: 456vw;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 3.2vw;
+line-height: 150%;
+color: #000000;
+margin-top: 2.576vw;
+}
+}
+
+@media screen and (min-width: 829px) and (max-width: 1399px) {
+    .body{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    main {
+        position: relative;
+        font-family: 'Roboto';
+        width: 100vw;
+        height: 100hv;
+        margin-left : 8.675vw;
+        margin-top : 6.747vw;
+        background: #FFFFFF;  
+        } 
+
+    .title{
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: bold;
+        width: 25.47vw;
+        height: 6.489vw;
+        font-size: 3.855vw;
+        line-height: 101.38%;
+        color: #000000;
+     }
+
+     .info{
+        display: flex;
+        flex-wrap: wrap;
+     }
+
+     .info .info-text{
+        width: 46.194vw;
+        height: 26.098vw;
+    }
+
+    .info .info-text p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.687vw;
+        line-height: 150%;
+        color: #000000;
+    }
+
+    .Group{
+  
+        margin-left: 13.253vw;
+        margin-top: 1.807vw;
+    }
+    .img1{
+        width: 21.911vw;
+        height: 21.981vw;
+    }
+
+    .middle{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bottom-p{
+        margin : 8.434vw 6.627vw 0 0;
+    }
+
+    .bottom-p p:nth-child(odd){
+        width: 10.482vw;
+        height: 2.771vw;
+
+        margin-bottom: -1.205vw;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.807vw;
+        line-height: 130%;
+   
+        color: #000000;
+    }
+
+    .bottom-p p:nth-child(even){
+        width: 10.602vw;
+        height: 2.771vw;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.325vw;
+        line-height: 130%;
+
+        color: #000000;
+    }
+    .desktop-image{
+        display: none;
+    }
+}
+
+@media screen and  (min-width : 1400px){
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    main{
+        position: relative;
+        font-family: 'Roboto';
+        width: 100vw;
+        height: 100hv;
+        margin-left : 8.857vw;
+        margin-top : 6.5vw;
+        background: #FFFFFF;  
+    }
+    .title{
+        width: 26.071vw;
+        height: 6.643vw;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.929vw;
+        line-height: 101.38%;
+ 
+        color: #000000;
+    }
+    .info{
+        display: flex;
+    }
+    .info .info-text{
+        width: 47.286vw;
+        height: 26.714vw;
+    }
+
+    .info .info-text p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.714vw;
+        line-height: 150%;
+        color: #000000;
+    }
+
+    .Group{  
+        margin-left: 11.714vw;
+        margin-top: 1.786vw;
+    }
+    .img1{
+        width: 26.143vw;
+        height: 24.571vw;
+    }
+
+    .middle{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 6.714vw;
+    }
+
+    .bottom-p{
+        margin: 5vw 6.786vw 0 0;
+    }
+
+    .bottom-p p:nth-child(odd){
+        width: 10.714vw;
+        height: 2.786vw;
+
+        margin-bottom: -0.714vw;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.786vw;
+        line-height: 130%;
+        color: #000000;
+    }
+
+    .bottom-p p:nth-child(even){
+        width: 10.714vw;
+        height: 2.786vw;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.286vw;
+        line-height: 130%;
+        color: #000000;
+    }
+
+    .desktop-image{
+        display: block;
+        width: 16.5vw;
+        height: 15.595vw;
+        margin-right: 9.429vw;
+    }
+
+}
